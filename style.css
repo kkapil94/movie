@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(26, 26, 78);
+}
+.movie img{
+    height: 300px;
+    width: 200px;
+}
+.movie{
+    margin: 10px;
+}
+.movie .movieInfo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(94,94,197);
+    width: 180px;
+    padding: 10px;
+    margin-top: -4px;
+    justify-content: space-between;
+}
+.movie .movieInfo span{
+    color: antiquewhite;
+    background-color: rgb(5, 5, 46);
+    height: fit-content;
+    width: 20px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie .movieInfo h5{
+    text-align: center;
+}
+header{
+    display: flex;
+   justify-content: flex-end;
+}
+header input{
+    background-color: rgb(8, 8, 54);
+    border: none;
+    text-align: center;
+    color: grey;
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+}
